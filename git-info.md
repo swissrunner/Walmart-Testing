@@ -18,7 +18,7 @@
   - [Clone Github Repo](#clone-a-repository)
   - [Create Local Repository](#create-a-local-repository)
   - [Add Existing Repository To Github](#add-existing-repository-)
-- [List Remote Repo Url](#list-remote-repo)
+- [List Remote Repo Url](#remote-repo)
 - [Basic Commands](#basic-commands)
 - Initialize local repo
 
