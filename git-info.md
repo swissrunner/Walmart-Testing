@@ -5,20 +5,21 @@
 - [Github Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Environment Setup](#setup-environment)
   - [Install Git](#git)
-  - [Github Desktop](#github-desktop)
-  - [Atom Text Editor](#atom-text-editor)
-  - [Visual Studio Code](#visual-studio-code)
-  - [Git Configuration](#configure_github)
-    - [Global Settings](#global-settings)
-    - [Local Settings](#local-settings)
-  - [Add SSH Key](#add-ssh-key)
+  - [Github Desktop](#desktop)
+  - [Atom Text Editor](#text-editor)
+  - [Visual Studio Code](#visual-studio)
+  - [Git Configuration](#git-settings)
+    - [Global Settings](#global)
+    - [Local Settings](#local)
+  - [Add SSH Key](#ssh-key)
     - [Generate Keys](#generate-keys)
     - [Validate SSH](#validate-ssh)
-- [Repositories](#repositories)
-  - [Clone Github Repo](#clone-github-reppsitory)
-  - [Create A Local Repository](#create-a-local-repository)
-  - [Add Existing Repository To Github](#add-existing-repository-to-github)
-- [Basic Commands](#basic-git-commands)
+- [Github Repositories](#repositories)
+  - [Clone Github Repo](#clone-a-repository)
+  - [Create Local Repository](#create-a-local-repository)
+  - [Add Existing Repository To Github](#add-existing-repository-)
+- [List Remote Repo Url](#list-remote-repo)
+- [Basic Commands](#basic-commands)
 - Initialize local repo
 
 
@@ -26,17 +27,17 @@
 - Install Git
   - [Git](https://git-scm.com/download/win)
 
-- Github Desktop
+- Desktop
   - [Desktop](https://desktop.github.com/)
 
-- Atom Text Editor
+- Text Editor
   - [Text Editor](https://atom.io/)
     - Enable platformio-ide-terminal package
 
-- Visual Studio Code
+- Visual Studio
   - [Visual Studio IDE](https://code.visualstudio.com/)
 
-- Git Configurations
+- Git Settings
 ```
 $ which git
 $ git --version
@@ -44,19 +45,19 @@ $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
 ```
 
-- Global Settings
+- Global
 ```
 $ git config --list --global
 $ cat ~/.gitconfig
 ```
 
-- Local Settings
+- Local
 ```
 $ git config --list --local
 $ cat ~/path/to/repo/.git/config
 ```
 
-- Add SSH Keys
+- SSH Keys
   - [Generate Keys](https://help.github.com/articles/connecting-to-github-with-ssh/)
   - Validate ssh
     ```
@@ -64,7 +65,7 @@ $ cat ~/path/to/repo/.git/config
     ```
 
 #### Repositories
-- Clone A Github Repository
+- Clone A Repository
   - Login to github
     - Create Repository On Github
     - repo_name
@@ -91,7 +92,7 @@ $ git remote add origin git@gecgithub01.walmart.com:GDAP-AVTools/test_2.git
 $ git push -u origin master
 ```
 
-- Add Existing Repository To Github
+- Add Existing Repository
   - Login to github
     - Create Repository On Github
     - repo_name
