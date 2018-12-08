@@ -4,27 +4,27 @@
 - [Git/Hub How To](https://guides.github.com/)
 - [Github Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Environment Setup](#setup-environment)
-  - [Install Git](#git)
+  - [Install Git](#git-install)
   - [Github Desktop](#desktop)
   - [Atom Text Editor](#text-editor)
   - [Visual Studio Code](#visual-studio)
   - [Git Configuration](#git-settings)
     - [Global Settings](#global)
     - [Local Settings](#local)
-  - [Add SSH Key](#ssh-key)
-    - [Generate Keys](#generate-keys)
-    - [Validate SSH](#validate-ssh)
+  - [Add SSH Key](#ssh-keys)
+    - [Generate Keys](#generate)
+    - [Validate SSH](#validate)
 - [Github Repositories](#repositories)
-  - [Clone Github Repo](#clone-a-repository)
-  - [Create Local Repository](#create-a-local-repository)
-  - [Add Existing Repository To Github](#add-existing-repository-)
-- [List Remote Repo Url](#remote-repo)
-- [Basic Commands](#basic-commands)
+  - [Clone A Github Repository](#clone-repository)
+  - [Create A Local Repository](#create-local-repository)
+  - [Add An Existing Repository To Github](#add-existing-repository)
+- [List Remote Repository Url](#remote-repository-url)
+- [Git Basic Commands](#git-commands)
 - Initialize local repo
 
 
 #### Setup Environment
-- Install Git
+- Git Instal
   - [Git](https://git-scm.com/download/win)
 
 - Desktop
@@ -58,14 +58,14 @@ $ cat ~/path/to/repo/.git/config
 ```
 
 - SSH Keys
-  - [Generate Keys](https://help.github.com/articles/connecting-to-github-with-ssh/)
-  - Validate ssh
+  - [Generate](https://help.github.com/articles/connecting-to-github-with-ssh/)
+  - Validate
     ```
     ssh git@gecgithub01.walmart.com
     ```
 
 #### Repositories
-- Clone A Repository
+- Clone Repository
   - Login to github
     - Create Repository On Github
     - repo_name
@@ -77,7 +77,7 @@ $ cd test_2.git
 $ git log
 ```
 
-- Create A Local Repository
+- Create Local Repository
   - Login to github
     - Create Repository On Github
     - repo_name
@@ -104,7 +104,7 @@ $ git remote -v
 $ git push -u origin master
 ```
 
-- List Remote Repo Url
+- Remote Repository Url
 ```
 $ cd ~/path/to/repo
 $ git ls-remote --get-url
