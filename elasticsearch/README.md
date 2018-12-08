@@ -2,7 +2,7 @@
 ## Overview
 
 Search is dependent on three services
-1. [Elasticsearch](elasticsearch-details)
+1. [Elasticsearch](#elasticsearch-details)
     * Store and query data
 2. ALM
     * Queries Elasticsearch through a jar called `waterbear`
