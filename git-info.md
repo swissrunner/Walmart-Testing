@@ -4,21 +4,22 @@
 - [Git/Hub How To](https://guides.github.com/)
 - [Github Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Environment Setup](#setup-environment)
-- [Install Git](#git-install)
-- [Github Desktop](#desktop)
-- [Text Editors](#editor)
-- [Visual Studio Code](#visual-studio)
+  - Install Git
+  - Github Desktop
+- [Text Editors](#editors)
+  - Atom
+  - Visual Studio Code
 - [Git Configuration](#git-settings)
-- [Global Settings](#global)
-- [Local Settings](#local)
+  - Global Settings
+  - Local Settings
 - [Add SSH Key](#ssh-keys)
-- [Generate Keys](#generate)
-- [Validate SSH](#validate)
+  - Generate Keys
+  - Validate SSH
 - [Github Repositories](#repositories)
-- [Clone A Github Repository](#clone-repository)
-- [Create A Local Repository](#create-local-repository)
-- [Add An Existing Repository To Github](#add-existing-repository)
-- [List Remote Repository Url](#remote-repository-url)
+  - Clone A Github Repository
+  - Create A Local Repository
+  - Add An Existing Repository To Github
+  - List Remote Repository Url
 - [Git Basic Commands](#git-commands)
 
 
@@ -69,8 +70,8 @@ $ cat ~/path/to/repo/.git/config
   - Perform the following on the Command-Line
 ```
 $ cd ~/path/to/dir
-$ git clone git@gecgithub01.walmart.com:GDAP-AVTools/test_2.git
-$ cd test_2.git
+$ git clone git@gecgithub01.walmart.com:GDAP-AVTools/repo-name.git
+$ cd repo-name
 $ git log
 ```
 
@@ -81,7 +82,7 @@ $ git log
   - Execute the following on the Command-line
 ```
 $ cd ~/path/to/dir
-$ echo "# test_2" >> README.md
+$ echo "# Info" >> File-name
 $ git init
 $ git add README.md
 $ git commit -m "first commit"
@@ -111,9 +112,9 @@ $ git ls-remote --get-url
 ```
 $ git status
 $ git checkout -b testing_branch
-$ touch test_1.txt
+$ touch file-name
 $ git status
-$ git add test_1.txt
+$ git add file-name
 $ git status
 $ git commit -m "Added File Info"
 $ git status
