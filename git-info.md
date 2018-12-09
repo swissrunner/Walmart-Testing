@@ -4,7 +4,7 @@
 - [Git/Hub How To](https://guides.github.com/)
 - [Github Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Environment Setup](#setup-environment)
-- [Install Git](#git-install)
+- [Install Git](#- git-install)
 - [Github Desktop](#desktop)
 - [Atom Text Editor](#text-editor)
 - [Visual Studio Code](#visual-studio)
