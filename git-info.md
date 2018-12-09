@@ -31,7 +31,7 @@
 
 ##### Text Editor
   - [Text Editor](https://atom.io/)
-    - Enable platformio-ide-terminal package
+    - Enable **platformio-ide-terminal** package
 
 ##### Visual Studio
   - [Visual Studio IDE](https://code.visualstudio.com/)
@@ -67,7 +67,7 @@ $ cat ~/path/to/repo/.git/config
 ##### Clone Repository
   - Login to github
     - Create Repository On Github
-    - repo_name
+    - *<repo_name>*
   - Perform the following on the Command-Line
 ```
 $ cd ~/path/to/dir
@@ -79,7 +79,7 @@ $ git log
 ###### Create Local Repository
   - Login to github
     - Create Repository On Github
-    - repo_name
+    - *<repo_name>*
   - Execute the following on the Command-line
 ```
 $ cd ~/path/to/dir
@@ -87,14 +87,14 @@ $ echo "# test_2" >> README.md
 $ git init
 $ git add README.md
 $ git commit -m "first commit"
-$ git remote add origin git@gecgithub01.walmart.com:GDAP-AVTools/test_2.git
+$ git remote add origin git@gecgithub01.walmart.com:GDAP-AVTools/repo_name.git
 $ git push -u origin master
 ```
 
 ##### Add Existing Repository
   - Login to github
     - Create Repository On Github
-    - repo_name
+    - *<repo_name>*
     - Execute the following on the Command-line
 ```
 $ cd ~/path/to/dir
