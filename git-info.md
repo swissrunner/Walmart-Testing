@@ -26,17 +26,17 @@
 ##### Git Install
   - [Git](https://git-scm.com/download/win)
 
-- Desktop
+##### Desktop
   - [Desktop](https://desktop.github.com/)
 
-- Text Editor
+##### Text Editor
   - [Text Editor](https://atom.io/)
     - Enable platformio-ide-terminal package
 
-- Visual Studio
+##### Visual Studio
   - [Visual Studio IDE](https://code.visualstudio.com/)
 
-- Git Settings
+##### Git Settings
 ```
 $ which git
 $ git --version
@@ -44,19 +44,19 @@ $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
 ```
 
-- Global
+##### Global
 ```
 $ git config --list --global
 $ cat ~/.gitconfig
 ```
 
-- Local
+##### Local
 ```
 $ git config --list --local
 $ cat ~/path/to/repo/.git/config
 ```
 
-- SSH Keys
+##### SSH Keys
   - [Generate](https://help.github.com/articles/connecting-to-github-with-ssh/)
   - Validate
     ```
@@ -64,7 +64,7 @@ $ cat ~/path/to/repo/.git/config
     ```
 
 #### Repositories
-- Clone Repository
+##### Clone Repository
   - Login to github
     - Create Repository On Github
     - repo_name
@@ -76,7 +76,7 @@ $ cd test_2.git
 $ git log
 ```
 
-- Create Local Repository
+###### Create Local Repository
   - Login to github
     - Create Repository On Github
     - repo_name
@@ -91,7 +91,7 @@ $ git remote add origin git@gecgithub01.walmart.com:GDAP-AVTools/test_2.git
 $ git push -u origin master
 ```
 
-- Add Existing Repository
+##### Add Existing Repository
   - Login to github
     - Create Repository On Github
     - repo_name
@@ -103,7 +103,7 @@ $ git remote -v
 $ git push -u origin master
 ```
 
-- Remote Repository Url
+##### Remote Repository Url
 ```
 $ cd ~/path/to/repo
 $ git ls-remote --get-url
