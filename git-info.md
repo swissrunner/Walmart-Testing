@@ -20,11 +20,10 @@
   - [Add An Existing Repository To Github](#add-existing-repository)
 - [List Remote Repository Url](#remote-repository-url)
 - [Git Basic Commands](#git-commands)
-- Initialize local repo
 
 
 #### Setup Environment
-- Git Instal
+- Git Install
   - [Git](https://git-scm.com/download/win)
 
 - Desktop
